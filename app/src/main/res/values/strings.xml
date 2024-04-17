@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Trivia_App</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="login">Login</string>
+    <string name="trivia_app_movies_and_games">Trivia App: Movies and Games</string>
 </resources>
