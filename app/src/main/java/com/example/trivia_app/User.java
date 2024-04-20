@@ -2,18 +2,19 @@ package com.example.trivia_app;
 
 
 import androidx.annotation.NonNull;
+import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
 
 
-@Entity(tableName = "Users")
+@Entity(tableName = AppDatabase.USER_TABLE)
 public class User {
     @PrimaryKey(autoGenerate = true)
     private int mUserId;
 
-
     private String mUserName;
+
     private String mPassword;
 
     public User(String mUserName, String mPassword) {

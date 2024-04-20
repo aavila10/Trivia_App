@@ -95,8 +95,6 @@ public class LoginPage extends AppCompatActivity {
                 .allowMainThreadQueries()
                 .build()
                 .getUserDao();
-
-
     }
 
     private void defaultUsers(){
@@ -105,9 +103,9 @@ public class LoginPage extends AppCompatActivity {
             mUserDao.insert(new User("testUser1", "testUser1"));
         }
 
-        User admin1 = mUserDao.getUserByUsername("admin1");
+        User admin1 = mUserDao.getUserByUsername("admin2");
         if(admin1 == null){
-            mUserDao.insert(new User("admin1", "admin1"));
+            mUserDao.insert(new User("admin2", "admin2"));
         }
 
     }
