@@ -1,6 +1,5 @@
 package com.example.trivia_app;
 
-import AllenArsan.DB.AppDatabase.*;
 
 import androidx.annotation.NonNull;
 import androidx.room.Entity;
@@ -11,10 +10,8 @@ import androidx.room.PrimaryKey;
 @Entity(tableName = "Users")
 public class User {
     @PrimaryKey(autoGenerate = true)
-
-
-
     private int mUserId;
+
 
     private String mUserName;
     private String mPassword;
@@ -24,27 +21,27 @@ public class User {
         this.mPassword = mPassword;
     }
 
-    public int getmUserId() {
+    public int getUserId() {
         return mUserId;
     }
 
-    public void setmUserId(int mUserId) {
+    public void setUserId(int mUserId) {
         this.mUserId = mUserId;
     }
 
-    public String getmUserName() {
+    public String getUserName() {
         return mUserName;
     }
 
-    public void setmUserName(String mUserName) {
+    public void setUserName(String mUserName) {
         this.mUserName = mUserName;
     }
 
-    public String getmPassword() {
+    public String getPassword() {
         return mPassword;
     }
 
-    public void setmPassword(String mPassword) {
+    public void setPassword(String mPassword) {
         this.mPassword = mPassword;
     }
 

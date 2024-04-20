@@ -4,4 +4,8 @@
     <string name="username">Username</string>
     <string name="login">Login</string>
     <string name="trivia_app_movies_and_games">Trivia App: Movies and Games</string>
+    <string name="admin">Admin</string>
+    <string name="hello">Hello,</string>
+    <string name="ready_to_play">Ready to play?</string>
+    <string name="ready">Ready!</string>
 </resources>
