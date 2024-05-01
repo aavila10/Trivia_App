@@ -6,12 +6,15 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
+
 public class LandingPage extends AppCompatActivity {
 
     private TextView textViewGreeting;
     private Button adminButton;
     private TextView textViewReady;
     private Button readyButton;
+
+    private boolean isAdmin = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,12 +26,17 @@ public class LandingPage extends AppCompatActivity {
         textViewReady = findViewById(R.id.textView4);
         readyButton = findViewById(R.id.button4);
 
-        adminButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                showToast("Admin button clicked!");
-            }
-        });
+        isAdmin = checkIfUserIsAdmin();
+
+        if (isAdmin) {
+            adminButton.setVisibility(View.VISIBLE);
+            adminButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    showToast("Admin button clicked!");
+                }
+            });
+        }
 
         readyButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -36,6 +44,10 @@ public class LandingPage extends AppCompatActivity {
                 showToast("Ready button clicked!");
             }
         });
+    }
+
+    private boolean checkIfUserIsAdmin() {
+        return true;
     }
 
     private void showToast(String message) {
