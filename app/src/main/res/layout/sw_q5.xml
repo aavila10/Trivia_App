@@ -5,10 +5,10 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/textViewQuestion3"
+        android:id="@+id/textViewQuestion2"
         android:layout_width="400dp"
         android:layout_height="100dp"
-        android:text="Which planet is known as the home planet of Chewbacca?"
+        android:text="Who is the Jedi Master who trained Luke Skywalker?"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/buttonAnswerA"
         app:layout_constraintEnd_toEndOf="parent"
@@ -19,17 +19,17 @@
         android:id="@+id/buttonAnswerA"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Kashyyyk"
+        android:text="Obi-Wan Kenobi"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewQuestion3" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewQuestion2" />
 
     <Button
         android:id="@+id/buttonAnswerB"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Tatooine"
+        android:text="Yoda"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -39,7 +39,7 @@
         android:id="@+id/buttonAnswerC"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Endor"
+        android:text="Darth Vader"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -49,7 +49,7 @@
         android:id="@+id/buttonAnswerD"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Hoth"
+        android:text="Mace Windu"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
