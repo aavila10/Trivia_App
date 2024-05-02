@@ -1,0 +1,58 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewQuestion4"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:text="What is the name of the weapon used by a Jedi?"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonAnswerA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonAnswerA"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Lightsaber"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewQuestion4" />
+
+    <Button
+        android:id="@+id/buttonAnswerB"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Blaster"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAnswerA" />
+
+    <Button
+        android:id="@+id/buttonAnswerC"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Bowcaster"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAnswerB" />
+
+    <Button
+        android:id="@+id/buttonAnswerD"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Ion Blaster"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAnswerC" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
