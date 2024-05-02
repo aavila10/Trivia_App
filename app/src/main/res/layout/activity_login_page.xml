@@ -65,10 +65,12 @@
         android:layout_width="488dp"
         android:layout_height="100dp"
         android:layout_marginTop="88dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/gameNameTextView"
+        app:layout_constraintVertical_bias="0.418"
         tools:srcCompat="@tools:sample/backgrounds/scenic" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
