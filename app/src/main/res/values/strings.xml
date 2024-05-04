@@ -8,4 +8,8 @@
     <string name="hello">Hello,</string>
     <string name="ready_to_play">Ready to play?</string>
     <string name="ready">Ready!</string>
+    <string name="logout" />
+    <string name="yes" />
+    <string name="no" />
+    <string name="Logout1">Logout</string>
 </resources>

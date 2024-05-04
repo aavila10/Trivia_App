@@ -11,15 +11,19 @@ import androidx.room.PrimaryKey;
 @Entity(tableName = AppDatabase.USER_TABLE)
 public class User {
     @PrimaryKey(autoGenerate = true)
-    private int mUserId;
+    public int mUserId;
 
-    private String mUserName;
+
+    public String mUserName;
 
     private String mPassword;
+
+    private int Score;
 
     public User(String mUserName, String mPassword) {
         this.mUserName = mUserName;
         this.mPassword = mPassword;
+        this.Score = 0;
     }
 
     public int getUserId() {
