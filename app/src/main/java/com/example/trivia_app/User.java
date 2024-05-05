@@ -12,8 +12,6 @@ import androidx.room.PrimaryKey;
 public class User {
     @PrimaryKey(autoGenerate = true)
     public int mUserId;
-
-
     public String mUserName;
 
     private String mPassword;

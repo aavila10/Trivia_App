@@ -55,7 +55,7 @@ public class LandingPage extends AppCompatActivity {
 
 
 
-        logOut = findViewById(R.id.logOutButton);
+        logOut = findViewById(R.id.logoutButton);
         textViewGreeting = findViewById(R.id.textView3);
         adminButton = findViewById(R.id.button3);
         textViewReady = findViewById(R.id.textView4);
